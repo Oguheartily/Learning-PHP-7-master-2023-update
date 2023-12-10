@@ -4,8 +4,5 @@
  this file was updated in 2023 to all the latest versions for all dependencies.
  Your main folder should be named: bookstore
  Here are some of the changes that were notable and changed
- OLD                                          NEW
-// deprecated methods
- use Twig_Loader_Filesystem;                  use Twig\Loader\FilesystemLoader;
- use Twig_Environment;                        use Twig\Environment;                  
-Logger::DEBUG                                 Level::Debug
+ OLD:  use Twig_Loader_Filesystem;  use Twig_Environment;  Logger::DEBUG 
+ NEW: use Twig\Loader\FilesystemLoader; use Twig\Environment; Level::Debug
